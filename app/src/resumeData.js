@@ -1,34 +1,48 @@
-import avatar from './images/avatar.png';
+import avatar from './images/profile.jpeg';
 
 const ResumeData = {
-  myName: '<Your Name Here>',
-  
+  myName: 'Andrew Peterson',
+
   avatar: avatar,
 
-  tabLabels: ['Skills','Experience'],
-  
-  profileSummary: `<Brief overview of what you bring to the table>`,
-  
+  tabLabels: ['Skills', 'Experience'],
+
+  profileSummary: `If your company is looking for a fun loving, dedicated
+  developer than I'm your man. I've worked on websites, video games, and 
+  even 3D rendering! I love coding, modeling, and animation and am always 
+  excited to play with new tech or start a new project. Also not to brag 
+  but im a dad joke and taco connoisseur. so what are you waiting for lets 
+  get our newest project started!`,
+
   buttonList: [
     {
       label: 'Github',
-      link: '<Link To Your GitHub>'
+      link: 'https://github.com/drewpete4'
     },
     {
-      label: 'Link 2',
-      link: '<Link 2 Address>'
+      label: 'Greenfields',
+      link: 'http://www.greenfields.io/'
     },
     {
-      label: 'Link 3',
-      link: '<Link 3 Address>'
+      label: 'Utah JCC',
+      link: 'https://jcc.utah.gov/'
     }
   ],
 
   skillsList: [
-    '<Skill 1>', 
-    '<Skill 2>',
-    '<Skill 3>',
-    '<Add more...>',
+    'JavaScript',
+    'HTML5',
+    'CSS',
+    'Git',
+    'Node.js',
+    'Express',
+    'JQuery',
+    'NoSQL',
+    'React',
+    'Firebase',
+    'Blender',
+    'Unity',
+    'Lumberyard'
   ],
 
   experienceList: [
